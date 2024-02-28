@@ -1,0 +1,98 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.8s;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(54, 54, 54);
+}
+
+.card {
+    background: linear-gradient(150deg, rgb(110, 209, 216), rgb(23, 59, 112));
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search input {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    flex-direction: row;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.search button {
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.error{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.wheather {
+    color: white;
+    text-align: center;
+}
+
+.wheather img {
+    width: 80px;
+    margin-top: 10px;
+}
+
+.wheather h2 {
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.wheather p {
+    font-size: 20px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+}
+
+.extra {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.extra img {
+    width: 55px;
+}
+
+.extra p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.lat {
+    margin: 20px 0px;
+}
+.wheather{
+    display: none;
+}
